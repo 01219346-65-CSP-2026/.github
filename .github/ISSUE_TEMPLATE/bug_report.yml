@@ -1,0 +1,59 @@
+name: "🐛 รายงานปัญหา"
+description: "แจ้งปัญหาเพื่อช่วยให้เราปรับปรุงระบบ"
+title: "[BUG] "
+labels: ["bug"]
+assignees: []
+
+body:
+  - type: textarea
+    id: bug_summary
+    attributes:
+      label: "🐛 สรุปปัญหา"
+      description: "อธิบายปัญหาโดยสั้น ๆ"
+      placeholder: "อธิบายปัญหาโดยสั้น ๆ"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "🧪 ขั้นตอนการทำให้เกิดปัญหา"
+      description: "ระบุขั้นตอนที่ทำให้เกิดปัญหา"
+      placeholder: |
+        1. ขั้นตอนที่ 1
+        2. ขั้นตอนที่ 2
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "✅ ผลลัพธ์ที่คาดหวัง"
+      description: "สิ่งที่ควรจะเกิดขึ้น"
+      placeholder: "อธิบายผลลัพธ์ที่คาดหวัง"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: "🚫 ผลลัพธ์ที่เกิดขึ้นจริง"
+      description: "สิ่งที่เกิดขึ้นจริง"
+      placeholder: "อธิบายผลลัพธ์ที่เกิดขึ้นจริง"
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "📸 รูปภาพหน้าจอหรือ Log"
+      description: "แนบรูปภาพหน้าจอหรือวาง Log ของข้อผิดพลาด"
+      placeholder: "เพิ่มรูปภาพหรือ Log ที่เกี่ยวข้อง"
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: "📝 หมายเหตุเพิ่มเติม"
+      description: "เพิ่มข้อมูลหรือรายละเอียดเพิ่มเติมเกี่ยวกับปัญหา"
+      placeholder: "รายละเอียดเพิ่มเติม (ถ้ามี)"

@@ -1,0 +1,25 @@
+name: "🚀 ขอเพิ่มฟีเจอร์"
+description: "เสนอไอเดียเพื่อปรับปรุงโปรเจกต์"
+title: "[Feature] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: textarea
+    id: feature_summary
+    attributes:
+      label: "🚀 สรุปฟีเจอร์"
+      description: "คุณต้องการเพิ่มหรือปรับปรุงอะไร?"
+      placeholder: "อธิบายฟีเจอร์หรือการปรับปรุงโดยสั้น ๆ"
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: "🎯 กรณีการใช้งาน"
+      description: "ทำไมฟีเจอร์นี้ถึงจำเป็น? ช่วยแก้ปัญหาอะไร?"
+      placeholder: "อธิบายปัญหาที่ฟีเจอร์นี้จะช่วยแก้ไข"
+    validations:
+      required: true
+      
